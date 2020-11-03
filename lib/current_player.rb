@@ -20,4 +20,4 @@ def current_player(board)
     puts 'O'
   end
 end 
-
+end 
