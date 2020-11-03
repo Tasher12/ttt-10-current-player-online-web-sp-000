@@ -15,9 +15,9 @@ end
 
 #This code keeps track of whos turn it is
 def current_player(board)
-  if turn_count(board) == 10%2
+  if turn_count == 10%2
     puts 'X'
-  elsif turn_count(board) == 15%2
+  elsif turn_count == 15%2
     puts 'O'
   end
 end 
