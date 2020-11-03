@@ -19,5 +19,5 @@ def current_player(board)
   elsif turn_count(board).odd?
     puts 'O'
   end 
-  end
-end 
+end
+
