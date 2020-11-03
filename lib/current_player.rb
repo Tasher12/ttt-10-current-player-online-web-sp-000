@@ -15,6 +15,7 @@ end
 
 #This code keeps track of whos turn it is
 def current_player(board)
-  turn_count(board) % 2? "X" : "O"
+  turn_count(board) % 2? "X" 
+  turn_count(board) !% 2? "O"
 end 
 
