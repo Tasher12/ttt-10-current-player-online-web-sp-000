@@ -4,7 +4,7 @@ board = ["","","","","","","","",""]
 def turn_count(board)
   counter = 0 
   board.each {|index|
-    if index == "x" || index == "o"
+    if index == "X" || index == "O"
     counter += 1
     end
     }
@@ -16,7 +16,7 @@ end
 #This code keeps track of whos turn it is
 def current_player(board)
   if turn_count(board).even?
-    puts 'x'
+    puts 'X'
   elsif turn_count(board).odd?
     puts 'o'
   end
