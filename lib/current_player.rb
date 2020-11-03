@@ -15,7 +15,6 @@ end
 
 #This code keeps track of whos turn it is
 def current_player(board)
-  i
-  end
+  
 end 
 
